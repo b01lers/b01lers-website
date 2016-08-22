@@ -1,0 +1,89 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+h1, .h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+h2, .h2 {
+    font-size: 40px;
+}
+
+a, a:visited { color: #aa2c2f; }
+a:hover, a:active { color: #d13137; }
+
+a.btn { color: #fff; }
+
+.navbar-default {
+    background-color: #221417;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.megalogo {
+    width: 70%; margin: 10px auto 50px;
+}
+.megalogo img {
+    width: 100%;
+}
+
+.panel-heading * { color: #fff; }
+.panel-body ul {
+    padding-left: 15px;
+}
+.panel-title, .panel-title a, .panel-title a:hover, .panel-title a:visited, .panel-title a:active { color: #fff; }
+
+.errorlist li {
+    color: red;
+    list-style: none;
+}
+
+
+
+/* COUNTDOWN TIMER */
+
+/* ---- Counter ---- */
+
+#CDT {
+    font-size: 60px;
+    margin: 70px 0 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#CDT .number-wrapper {
+    margin: 10px;
+    position: relative;
+}
+
+#CDT .number {
+    display: inline;
+    *display: inline;
+    *zoom: 1;
+    padding: 0 12px;
+    line-height: 80px;
+    text-align: center;
+}
+
+#CDT .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 52%;
+    left: 0;
+}
+
+#CDT .units {
+    font-size: 18px;
+    position: relative;
+}
+
+/* END TIMER */
