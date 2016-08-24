@@ -45,14 +45,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <!--<a class="navbar-brand" href="/"><img src="/static/images/logo_full.png" alt="b01lers club - Purdue CTF team" title="b01lers club - Purdue CTF team" /></a>-->
+                        <a class="navbar-brand" href="/"><img src="/static/images/logo_full.png" alt="b01lers club - Purdue CTF team" title="b01lers club - Purdue CTF team" /></a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <!--<li><a href="{{ url_for('announcements.view') }}">News</a></li>
-                            <li><a href="{{ url_for('members.view') }}">Members</a></li>
-                            <li><a href="{{ url_for('writeups.view_all') }}">CTF Write-ups</a></li>
-                            <li><a href="/irc.html">IRC</a></li>-->
+                            <li><a href="/schedule.html">Schedule</a></li>
+                            <li><a href="/irc.html">IRC</a></li>
+                            <!--<li><a href="{{ url_for('members.view') }}">Members</a></li>
+                            <li><a href="{{ url_for('writeups.view_all') }}">CTF Write-ups</a></li>-->
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div><!--/.container-fluid -->
@@ -149,7 +149,7 @@
         }
       function CDT(){
         // Set countdown limit
-        var tl = new Date('2016/08/31 18:00:00');
+        var tl = new Date('2016/08/31 19:00:00');
 
         // You can add time's up message here
         var timer = new CountdownTimer('CDT',tl,'<span class="number-wrapper"><div class="line"></div><span class="number end">Meeting Time!</span></span>');
